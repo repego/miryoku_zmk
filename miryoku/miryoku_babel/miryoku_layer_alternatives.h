@@ -364,7 +364,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp LBRC,          &kp AMPS,          &kp RA(N8),        &kp RA(N9),        &kp RBRC,          U_NA,              &kp LS(SQT),       &kp LS(LBKT),      &kp LS(SEMI),      U_BOOT,            \
 &kp PIPE,          &kp LS(N2),        &kp ASTRK,         &kp LPAR,          &kp RA(Q),         U_NA,              U_MT(LSHFT, SQT),  U_MT(LCTRL, LBKT), U_MT(LALT, SEMI),  U_MT(LGUI, N),     \
 &kp PLUS,          &kp DLLR,          &kp RA(N7),        &kp RA(N0),        &kp BSLH,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp LPAR,          &kp EXCL,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              U_NP,              &kp LS(N7),        &kp EXCL,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM_BACKUP \
 &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &kp LS(SQT),       &kp LS(LBKT),      &kp LS(SEMI),      U_BOOT,            \

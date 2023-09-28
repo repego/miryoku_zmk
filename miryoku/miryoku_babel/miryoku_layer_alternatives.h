@@ -348,8 +348,8 @@ U_NA,              &kp RALT,          &u_to_U_NAV,       &u_to_U_NUM,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp MINUS,         &kp N0,            &kp DOT,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
-&kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp RBKT,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
@@ -361,7 +361,7 @@ U_NA,              &kp RALT,          &u_to_U_MOUSE,     &u_to_U_SYM,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp LPAR,          &kp RPAR,          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp LT,            &kp LS(DOT),       &kp RA(N8),        &kp RA(N9),        &kp RBRC,          U_NA,              &kp LS(SQT),       &kp LS(LBKT),      &kp LS(SEMI),      U_BOOT,            \
+&kp LT,            &kp LS(DOT),       &kp RA(N8),        &kp RA(N9),        &kp PIPE2,         U_NA,              &kp LS(SQT),       &kp LS(LBKT),      &kp LS(SEMI),      U_BOOT,            \
 &kp PIPE,          &kp LS(N2),        &kp ASTRK,         &kp LPAR,          &kp RA(Q),         U_NA,              U_MT(LSHFT, SQT),  U_MT(LCTRL, LBKT), U_MT(LALT, SEMI),  U_MT(LGUI, N),     \
 &kp PLUS,          &kp DLLR,          &kp RA(N7),        &kp RA(N0),        &kp BSLH,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LS(N7),        &kp EXCL,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP

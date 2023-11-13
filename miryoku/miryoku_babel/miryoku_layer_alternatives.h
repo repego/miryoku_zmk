@@ -361,9 +361,9 @@ U_NA,              &kp RALT,          &u_to_U_MOUSE,     &u_to_U_SYM,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp LPAR,          &kp RPAR,          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp LS(N3),        &kp LS(N5),        &kp RA(N8),        &kp RA(N9),        &kp NON_US_BACKSLASH,&kp RA(NON_US_BACKSLASH),  &kp LS(SQT),       &kp LS(LBKT),      &kp LS(SEMI),      &kp MINUS,            \
+&kp LS(N3),        &kp LS(N5),        &kp RA(N8),        &kp RA(N9),        &kp NON_US_BACKSLASH,&kp RA(NON_US_BACKSLASH),  &kp LS(SQT), &kp LS(LBKT),      &kp LS(SEMI),      &kp MINUS,            \
 &kp RA(RBKT),      &kp LS(N2),        &kp ASTRK,         &kp LPAR,          &kp RA(Q),         &kp RA(MINUS),     U_MT(LSHFT, SQT),  U_MT(LCTRL, LBKT), U_MT(LALT, SEMI),  U_MT(LGUI, MINUS),    \
-&kp PLUS,          &kp DLLR,          &kp RA(N7),        &kp RA(N0),        &kp BSLH,          &kp NON_US_HASH,   &u_to_U_SYM,       &u_to_U_MOUSE,     &kp AMPERSAND,     &kp PERCENT,          \
+&kp PLUS,          &kp DLLR,          &kp RA(N7),        &kp RA(N0),        &kp BSLH,          &kp LS(N6),        &kp PLUS,          &kp LS(BSLH),      &kp AMPERSAND,     &kp PERCENT,          \
 U_NP,              U_NP,              &kp LS(N7),        &kp EXCL,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM_BACKUP \

@@ -361,8 +361,8 @@ U_NA,              &kp RALT,          &u_to_U_MOUSE,     &u_to_U_SYM,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp LPAR,          &kp RPAR,          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp TILDE2,        &kp TILDE,         &kp RA(N8),        &kp RA(N9),        &kp NON_US_BACKSLASH,&kp GRAVE,        &kp LS(SQT),       &kp LS(LBKT),      &kp LS(SEMI),      &kp MINUS,            \
-&kp PIPE,          &kp LS(N2),        &kp ASTRK,         &kp LPAR,          &kp RA(Q),         &kp NON_US_BACKSLASH,  U_MT(LSHFT, SQT),  U_MT(LCTRL, LBKT), U_MT(LALT, SEMI),  U_MT(LGUI, MINUS),    \
+&kp SEMICOLON,        &kp SINGLE_QUOTE,         &kp RA(N8),        &kp RA(N9),        &kp NON_US_BACKSLASH,&kp DOUBLE_QUOTES,        &kp LS(SQT),       &kp LS(LBKT),      &kp LS(SEMI),      &kp MINUS,            \
+&kp COLON,          &kp LS(N2),        &kp ASTRK,         &kp LPAR,          &kp RA(Q),         &kp COMMA,  U_MT(LSHFT, SQT),  U_MT(LCTRL, LBKT), U_MT(LALT, SEMI),  U_MT(LGUI, MINUS),    \
 &kp PLUS,          &kp DLLR,          &kp RA(N7),        &kp RA(N0),        &kp BSLH,          &kp NON_US_HASH,   &u_to_U_SYM,       &u_to_U_MOUSE,     &kp AMPERSAND,     &kp PERCENT,          \
 U_NP,              U_NP,              &kp LS(N7),        &kp EXCL,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 

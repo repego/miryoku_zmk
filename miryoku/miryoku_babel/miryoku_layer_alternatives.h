@@ -362,7 +362,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_ALTERNATIVES_SYM \
 &kp BACKSLASH,        &kp SLASH,         &kp RA(N8),        &kp RA(N9),        &kp NON_US_BACKSLASH,&kp MINUS,        &kp LS(SQT),       &kp LS(LBKT),      &kp LS(SEMI),      &kp MINUS,            \
-&kp QUESTION,          &kp LS(N2),        &kp ASTRK,         &kp LPAR,          &kp RA(Q),         &kp UNDERSCORE,  U_MT(LSHFT, SQT),  U_MT(LCTRL, LBKT), U_MT(LALT, SEMI),  U_MT(LGUI, MINUS),    \
+&kp QUESTION,          &kp LS(N2),        &kp ASTRK,         &kp LPAR,          &kp RA(Q),         &kp RA(MINUS),  U_MT(LSHFT, SQT),  U_MT(LCTRL, LBKT), U_MT(LALT, SEMI),  U_MT(LGUI, MINUS),    \
 &kp PLUS,          &kp DLLR,          &kp RA(N7),        &kp RA(N0),        &kp BSLH,          &kp NON_US_HASH,   &u_to_U_SYM,       &u_to_U_MOUSE,     &kp AMPERSAND,     &kp PERCENT,          \
 U_NP,              U_NP,              &kp LS(N7),        &kp EXCL,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 

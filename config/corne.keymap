@@ -1,6 +1,8 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#include <dt-bindings/gpio/gpio.h>
+
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/42/corne.h"
 #include "../miryoku/miryoku.dtsi"
@@ -8,3 +10,20 @@
 &led_strip {
     chain-length = <21>;
 };
+
+// Hardware repair, left half only: the nice!nano pin for col5 (pro_micro 14,
+// P1.11) is dead, so col5 is bridged to the neighbouring free pin
+// (pro_micro 16, P0.10). Enabled by the define that the "left" job in
+// .github/workflows/build-example-my-corne.yml passes as custom_config.
+#if defined (MY_CORNE_LEFT_COL5_ON_PIN16)
+&kscan0 {
+    col-gpios
+        = <&pro_micro 21 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 20 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 19 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 18 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 16 GPIO_ACTIVE_HIGH>
+        ;
+};
+#endif

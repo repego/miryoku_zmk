@@ -4,10 +4,20 @@
 name: 'Build my corne nice_nano_v2 nice_view'
 on: workflow_dispatch
 jobs:
-  build:
+  # Left half: col5 moved from pro_micro 14 to pro_micro 16 (see config/corne.keymap)
+  left:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
+      shield: '["corne_left nice_view_adapter nice_view"]'
+      custom_config: '["#define MY_CORNE_LEFT_COL5_ON_PIN16"]'
+      kconfig: '["CONFIG_ZMK_RGB_UNDERGLOW=y\nCONFIG_WS2812_STRIP=y\nCONFIG_ZMK_BACKLIGHT_BRT_START=10"]'
+  # Right half: unchanged
+  right:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["corne_right nice_view_adapter nice_view"]'
       kconfig: '["CONFIG_ZMK_RGB_UNDERGLOW=y\nCONFIG_WS2812_STRIP=y\nCONFIG_ZMK_BACKLIGHT_BRT_START=10"]'

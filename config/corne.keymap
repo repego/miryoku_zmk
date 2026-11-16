@@ -8,7 +8,7 @@
 #include "../miryoku/miryoku.dtsi"
 
 &led_strip {
-    chain-length = <21>;
+    chain-length = <27>;
 };
 
 // Hardware repair, left half only: the nice!nano pin for col5 (pro_micro 14,

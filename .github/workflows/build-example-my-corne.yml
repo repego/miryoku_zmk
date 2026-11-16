@@ -13,6 +13,8 @@ jobs:
       shield: '["corne_left nice_view_adapter nice_view"]'
       custom_config: '["#define MY_CORNE_LEFT_COL5_ON_PIN16"]'
       kconfig: '["CONFIG_ZMK_RGB_UNDERGLOW=y\nCONFIG_WS2812_STRIP=y\nCONFIG_ZMK_BACKLIGHT_BRT_START=10"]'
+      # ZMK main moved to Zephyr 4.1 and renamed the boards; stay on the last release that has nice_nano_v2
+      branches: '["zmkfirmware/zmk/v0.3.0"]'
   # Right half: unchanged
   right:
     uses: ./.github/workflows/main.yml
@@ -21,3 +23,5 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["corne_right nice_view_adapter nice_view"]'
       kconfig: '["CONFIG_ZMK_RGB_UNDERGLOW=y\nCONFIG_WS2812_STRIP=y\nCONFIG_ZMK_BACKLIGHT_BRT_START=10"]'
+      # ZMK main moved to Zephyr 4.1 and renamed the boards; stay on the last release that has nice_nano_v2
+      branches: '["zmkfirmware/zmk/v0.3.0"]'
